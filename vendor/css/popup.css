@@ -1,0 +1,105 @@
+body {
+    color: #232323;
+    font-size: 0.95em;    
+    font-family: arial;
+}
+
+footer {
+    display: none;
+}
+
+#contact-popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 300%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #676767;
+    position: fixed;
+}
+
+.contact-form {
+    width: 40rem;
+    margin: 0px;
+    background-color: white;
+    font-family: Arial;
+    position: absolute;
+    left: 43%;
+    top: 20%;
+    margin-left: -210px;
+    margin-top: -255px;
+    box-shadow: 1px 1px 5px #444444;
+    padding: 20px 40px 40px 40px;
+    border-radius: 5px;
+}
+
+
+#send {
+    border:none;
+    font-family: Arial;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    animation: monFrame 2s linear 1s infinite;
+    transition: 2s;
+}
+
+@keyframes monFrame {
+    0%   {background: black; background: #7e7b7b;}
+    100% {background: rgb(179, 82, 82); background: #481d1d;}
+   } 
+
+#contact-popup h1 {
+    font-weight: normal;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.input-error {
+    border: #e66262 1px solid;
+}
+
+.bi {
+    color: #09F;
+    position: relative;
+    left: 100%;
+    cursor: pointer;
+}
+
+.bi:hover{
+    color: red;
+}
+
+/* ================= */
+#send {
+  background: linear-gradient(to bottom right, rgb(78, 35, 35), rgb(74, 33, 33));
+  border: 0;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+#send:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(253, 253, 253, 0.5), -.125rem -.125rem 1rem #7e7b7b, .125rem .125rem 1rem rgba(0, 0, 0, 0.459);
+}
+
+#send:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(241, 241, 241, 0.5), -.125rem -.125rem 1rem #7e7b7b, .125rem .125rem 1rem rgba(0, 0, 0, 0.422);
+}

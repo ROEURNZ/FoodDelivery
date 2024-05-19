@@ -1,0 +1,104 @@
+
+.container_resorder{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.navres{
+    background: rgb(38, 144, 48);
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content_action{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_action a{
+    color: white;
+    font-weight: bold;
+}
+.content_action a:hover{
+    background: rgb(255, 255, 255);
+}
+.navres h4 {
+    margin: 10px;
+}
+
+.contentOrder {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hide {
+    display: none;
+}
+.card{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-evenly;
+    background: rgb(51, 51, 53);
+    color: white;
+    border-radius: 10px;
+}
+
+.card-header{
+    background: #1e1d1d1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.card-body{
+    background: rgba(0, 0, 0, 0.379);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.card-footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.card-footer button{
+    border: none;
+    padding: 7px 10px;
+    width: 110px;
+    border-radius: 5px;
+    background: red;
+    font-weight: bold;
+    color: white;
+}
+.foodname {
+    display: flex;
+    flex-direction: column;
+}
+p{
+    width: 100%;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
