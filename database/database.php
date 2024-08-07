@@ -1,7 +1,7 @@
 <?php
 
 $hostname = "localhost";
-$database = "panda_db";
+$database = "food_delivery";
 $username = "root";
 $password = "";
 
